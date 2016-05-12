@@ -7,51 +7,58 @@
  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<!-- Navigation block -->
+
 <header class="page-nav">
     <div class="container">
         <div class="page-nav-logo to-left">
-          <img class="page-nav-logo__img" src="#" alt="logo.img"  />
-          <span class="page-nav-logo__text">Спецтех24</span>
+          <img class="page-nav-logo__img" src="img/header_truck_icon.png" alt="logo.img"  />
+          <span class="page-nav-logo__text"><strong>Спецтех</strong>24</span>
         </div>
-        <nav class="page-nav-sitenav to-right">
-            <ul class="page-nav-sitenav__list">
-                <li class="page-nav-sitenav__list-item" >
-                  <a class="page-nav-sitenav__link" href="#">О компании</a>
+        <a class="page-nav-button to-right" href="#">Заказать звонок</a>
+        <nav class="page-nav-menu to-right">
+            <ul>
+                <li>
+                  <a href="#">О компании</a>
                 </li>
-                <li class="page-nav-sitenav__link">
+                <li>
                   <a href="#">Каталог</a>
                 </li>
-                <li class="page-nav-sitenav__link">
+                <li>
                   <a href="#">Портфолио</a>
                 </li>
-                <li class="page-nav-sitenav__link">
+                <li>
                   <a href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
-      <a class="page-nav-button to-right" href="#">Заказать звонок</a>
     </div>
 </header>
+
+<!-- Promo block-->
 
 <section class="promo">
     <div class="container">
       <div class="promo-content center">
-         <p class="promo-title">ВМЕСТЕ МЫ СПРАВИМСЯ!</p>
+         <p class="promo-slogan">ВМЕСТЕ МЫ СПРАВИМСЯ!</p>
          <h1 class="promo-text">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
-          <a href="#" class="promo-button">Перейти в каталок</a>
+          <a href="#" class="promo-button">Перейти в каталог</a>
       </div>
     </div>
 </section>
 
+<!-- Consult block -->
+
 <div class="consult">
     <div class="container">
         <h2 class="consult-title to-left">Закажите бесплатную консультацию по подбору подходящей техники</h2>
-          <div class="consult-form">
-            <input class="consult-form__name to-left" type="text">Как вас зовут?</input>
-            <input class="consult-form__number to-left" type="text">Номер для связи</input>
-            <input class="consult-form__date to-left" type="text">Выберите дату</input>
-            <input class="consult-form__date to-left" type="submit">Заказать консультацию</input>
-          </div>
+          <form action="#" class="consult-form">
+            <input class="consult-form__item to-left" type="text">Как вас зовут?</input>
+            <input class="consult-form__item to-left" type="text">Номер для связи</input>
+            <input class="consult-form__item to-left" type="text">Выберите дату</input>
+            <input class="consult-form__button to-left" type="submit">Заказать консультацию</input>
+          </form>
     </div>
 </div>
 
